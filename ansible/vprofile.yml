@@ -1,5 +1,5 @@
 ---
-- hosts: tomcatservers
+- hosts: 192.168.56.4
   become: yes
   gather_facts: False
   tasks:
